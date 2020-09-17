@@ -1,0 +1,11 @@
+# default values for blocks
+default height:25 width:50 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:1 hit_points:2 fill:image(block_images/bark1.jpg) fill-2:image(block_images/leaves1.jpg)
+bdef symbol:2 hit_points:2 fill:image(block_images/bark2.jpg) fill-2:image(block_images/leaves2.jpg)
+bdef symbol:3 fill:image(block_images/bark3.jpg)
+bdef symbol:4 fill:image(block_images/bark4.jpg)
+
+# spacers definitions
+sdef symbol:- width:50

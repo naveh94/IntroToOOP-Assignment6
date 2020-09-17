@@ -1,0 +1,10 @@
+# default values for blocks
+default height:25 width:50 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:b height:50 hit_points:2 fill:image(block_images/block50b.jpg) fill-2:image(block_images/block50.jpg)
+bdef symbol:r hit_points:2 fill:image(block_images/roofb.jpg) fill-2:image(block_images/roof.jpg)
+bdef symbol:d height:50 fill:image(block_images/door.jpg)
+
+# spacers definitions
+sdef symbol:- width:50

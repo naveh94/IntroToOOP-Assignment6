@@ -1,0 +1,100 @@
+# A castle on a hill.
+START_LEVEL
+level_name:Pixel Art
+ball_velocities:-50,300 -40,300 -30,300 -20,300 0,300 20,300 30,300 40,300 50,300
+background:color(white)
+paddle_speed:420
+paddle_width:350
+block_definitions:definitions/mini_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:10
+num_blocks:20
+START_BLOCKS
+-
+-BB---B--B--B-BBB---B---B--B--BBB--BBB--B-B-B----B--B--B-B---B-B---BB--BBB-
+-B-B-B-B-BB-B--B----B-B-B-B-B-B--B-B--B--B--B---B-B-BB-B-B----B------B-B-B-
+-B-B-B-B-B-BB--B-----B-B--B-B-BBB--BBB---B------B-B-B-BB-B----B-----B--B-B-
+-BB---B--B--B--B-----B-B---B--B--B-B--B--B--B----B--B--B-BBB--B----BBB-BBB-
+-
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbrrrrrrbbbyybbgggbbbbbgggbbcccccccbboobbbbbbbbbbGGbbbbbyyyyyybbbppppppbbb
+bbbrrbbbrrbbyybbbggbbbbbggbbbccbbbbbbboobbbbbbbbbGGGGbbbbyybbbyybbppppppbbb
+bbbrrbbbrrbbyybbbbgggbgggbbbbccbbbbbbboobbbbbbbGGbbbbGGbbyybbbyybbbbppbbbbb
+bbbrrrrrrbbbyybbbbbbgggbbbbbbcccccccbboobbbbbbbGGGGGGGGbbyyyyyybbbbbppbbbbb
+bbbrrbbbbbbbyybbbbgggbgggbbbbccbbbbbbboobbbbbbbGGGGGGGGbbyybbyybbbbbppbbbbb
+bbbrrbbbbbbbyybbbggbbbbggbbbbccbbbbbbbooooooobbGGbbbbGGbbyybbbyybbbbppbbbbb
+bbbrrbbbbbbbyybbgggbbbbgggbbbcccccccbbooooooobbGGbbbbGGbbyybbbyybbbbppbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+---------------------------------------------------------------------------
+-----------------------------------yyyyy-----------------------------------
+----------------------------------yyyyyyy----------------------------------
+---------------------------------yyyyyyyyy---------------------------------
+--------------------------------yyyyyyyyyyy--------------------------------
+--------------------------------yyybyyybyyy--------------------------------
+--------------------------------yyybyyybyyy--------------------------------
+--------------------------------yyyyyyyyyyy--------------------------------
+--------------------------------yryyyyyyyry--------------------------------
+--------------------------------yyryyyyyryy--------------------------------
+---------------------------------yyrrrrryy---------------------------------
+----------------------------------yyyyyyy----------------------------------
+-----------------------------------yyyyy-----------------------------------
+---------------------------------------------------------------------------
+
+
+END_BLOCKS
+END_LEVEL
+
+# A castle on a hill.
+START_LEVEL
+level_name:Storming The Castle
+ball_velocities:-20,300 -15,300 -10,300 10,300 15,300 20,300
+background:image(background_images/greenhill.jpg)
+paddle_speed:420
+paddle_width:100
+block_definitions:definitions/castle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:25
+num_blocks:65
+START_BLOCKS
+---------------
+---r-------r---
+--rrr-----rrr--
+-rrrrr---rrrrr-
+--bbb-----bbb--
+---------------
+--bdb-----bdb--
+------b-b------
+--bbbbbbbbbbb--
+---------------
+--bdbbdddbbdb--
+---------------
+--bbbbdddbbbb--
+END_BLOCKS
+END_LEVEL
+
+
+# Green3 recreation
+START_LEVEL
+level_name:Green 3 Remake
+ball_velocities:20,400 -20,400
+background:image(background_images/green3.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/custom_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:68
+START_BLOCKS
+---111111111111
+----11111111111
+-----2222222222
+------222222222
+-------33333333
+--------3333333
+---------444444
+----------44444
+END_BLOCKS
+END_LEVEL
